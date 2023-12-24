@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head><script> const td = Date.now()</script></head>
+<body>
+    <form method="post">
+        <fieldset>
+            <legend>Add User</legend>
+            <input type="text" id="firstName"/>
+            <label for="firstName">First Name</label>
+            <input type="text" id="lastName"/>
+            <label for="lastName">Last Name</label>
+            <input type="email" name="" id="email"/>
+            <label for="email">Email</label>
+           
+            <input list="Status"/>
+            <datalist id="Status">
+                <option value="Student"></option>
+                <option value="Teacher"></option>
+                <option value="Guest"></option>
+            </datalist>
+            <label for="Status">Choose Your Status</label>
+            <div><label><p> "Choose your favorite programming language:</p>
+                <input type="radio" value="HTML" id="HTML" aria-checked="false"/>
+                <label for="HTML">HTML</label>
+                <input type="radio" value="CSS" id="CSS" aria-checked="false"/>
+                <label for="CSS">CSS</label>
+                <input type="radio" value="JavaScript" id="js" aria-checked="false"/>
+                <label for="JavaScript">JavaScript</label>
+                <textarea>Comments:</textarea>
+                <input type="datetime" value="12/24/2023" />
+                <input type="checkbox">Sign up for newsletter</input>
+                <input type="checkbox">Agree to terms and conditions</input>
+                <button type="submit">Submit</button>
+            </div></label>
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
